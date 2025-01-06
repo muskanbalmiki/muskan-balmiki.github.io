@@ -1,0 +1,36 @@
+.product-list{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.product-list ul{
+    padding: 0;
+}
+
+.product-list ul li{
+    list-style-type: none;
+    border: 2px solid grey;
+    margin: 20px 0;
+    padding:  10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.3);
+}
+.product-list .filter-btns{
+    display: flex;
+    gap:10px;
+}
+.product-list .filter-btns button{
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: plum;
+    border: 1px solid rgb(225, 215, 215);
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+.product-list .filter-btns button:hover{
+    background-color: blueviolet;
+
+}
